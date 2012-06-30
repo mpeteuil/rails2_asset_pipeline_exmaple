@@ -6,8 +6,8 @@
   </tr>
   <tr>
     <td>JS with require</td>
-    <td><%= asset_path("application.js") %></td>
-    <td><%= javascript_include_tag "application" %></td>
+    <td><%= asset_path("application.test.1.2.js") %></td>
+    <td><%= javascript_include_tag "application.test.1.2" %></td>
   </tr>
   <tr>
     <td>Coffescript</td>
@@ -46,8 +46,8 @@
   </tr>
   <tr>
     <td>from public</td>
-    <td><%= compute_public_path "/javascripts/application.js", "javascripts" %></td>
-    <td><%= javascript_include_tag "/javascripts/application.js" %></td>
+    <td><%= compute_public_path "/javascripts/application.test.1.2.js", "javascripts" %></td>
+    <td><%= javascript_include_tag "/javascripts/application.test.1.2.js" %></td>
   </tr>
 </table>
 
